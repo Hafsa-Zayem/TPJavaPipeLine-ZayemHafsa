@@ -24,6 +24,8 @@ GitHub (push) → Webhook → ngrok → Jenkins → Pipeline CI/CD
 <img width="1913" height="1005" alt="mvn clean intall" src="https://github.com/user-attachments/assets/afe23ba1-4ab4-451b-b000-b3d854303885" />
 
 ## 2️ Jenkins Dashboard
+<img width="1335" height="100" alt="d j" src="https://github.com/user-attachments/assets/d4d7ac38-8fbd-4200-a42a-cb56eee84cea" />
+-
 <img width="1918" height="1060" alt="d jnks" src="https://github.com/user-attachments/assets/8138d96e-9546-4a66-9447-232cf0b36335" />
 -
 <img width="1930" height="931" alt="jenkins-dashboard" src="https://github.com/user-attachments/assets/bc8642a0-2fb1-4b93-b0c2-5850e8336d39" />
