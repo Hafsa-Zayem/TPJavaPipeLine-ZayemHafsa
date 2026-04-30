@@ -45,39 +45,6 @@ Pipeline CI/CD : GitHub → Webhook → ngrok → Jenkins → Docker
 -
 <img width="1645" height="828" alt="wh" src="https://github.com/user-attachments/assets/3006a18b-3896-48cd-bf69-83db03d289e5" />
 -
-<img width="1907" height="902" alt="stages" src="https://github.com/user-attachments/assets/e879d696-d5f6-498c-bd40-bb01bcc6162d" />
-
-## 📝 Rapport
-
-### Introduction
-Ce TP consiste à mettre en place un pipeline CI/CD complet
-avec Jenkins, GitHub Webhook et Docker.
-
-### Architecture
-GitHub (push) → Webhook → ngrok → Jenkins → Pipeline CI/CD
-
-### Outils utilisés
-| Outil | Version | Rôle |
-|-------|---------|------|
-| Java | 21 | Langage |
-| Maven | 3.9.15 | Build |
-| Jenkins | 2.528.2 | CI/CD |
-| Docker | 29.2.1 | Conteneurisation |
-| ngrok | - | Tunnel HTTP |
-| GitHub | - | Source code |
-
-### Étapes réalisées
-1. Création d'un projet Java Maven compilant sans erreur
-2. Création du Jenkinsfile avec 4 stages : Checkout, Build, Test, Package
-3. Configuration de ngrok pour exposer Jenkins local à GitHub
-4. Création du Webhook GitHub pour déclencher Jenkins automatiquement
-5. Création du Multibranch Pipeline Jenkins
-6. Vérification du déclenchement automatique après git push
-
-### Résultats
-Pipeline exécuté avec succès (Build #5). Tous les stages sont verts ✅.
-Chaque push sur GitHub déclenche automatiquement le build Jenkins.
-
-### Conclusion
-Le pipeline CI/CD fonctionne correctement. L'intégration
-GitHub + Jenkins + Docker permet une livraison continue automatisée.
+<img width="1157" height="898" alt="v m" src="https://github.com/user-attachments/assets/e12c43f6-823a-4dd7-823d-b5f6ed3d53ed" />
+-
+<img width="1918" height="896" alt="v 6" src="https://github.com/user-attachments/assets/2a272aa7-3913-4dea-b689-befbc982d4b4" />
