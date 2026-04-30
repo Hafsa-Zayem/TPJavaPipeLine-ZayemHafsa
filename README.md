@@ -42,3 +42,8 @@ Pipeline CI/CD : GitHub → Webhook → ngrok → Jenkins → Docker
 <img width="1918" height="908" alt="Scan Repo" src="https://github.com/user-attachments/assets/8e5d556c-1f5a-4e20-aa6e-6b20c2c2fed1" />
 -
 <img width="1918" height="927" alt="jk log" src="https://github.com/user-attachments/assets/30763698-e224-478f-8a42-ea6793a5e21f" />
+-
+<img width="1645" height="828" alt="wh" src="https://github.com/user-attachments/assets/3006a18b-3896-48cd-bf69-83db03d289e5" />
+-
+<img width="1907" height="902" alt="stages" src="https://github.com/user-attachments/assets/e879d696-d5f6-498c-bd40-bb01bcc6162d" />
+
