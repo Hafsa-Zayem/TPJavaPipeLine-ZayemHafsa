@@ -45,5 +45,6 @@ Pipeline CI/CD : GitHub → Webhook → ngrok → Jenkins → Docker
 -
 <img width="1645" height="828" alt="wh" src="https://github.com/user-attachments/assets/3006a18b-3896-48cd-bf69-83db03d289e5" />
 -
-<img width="1907" height="902" alt="stages" src="https://github.com/user-attachments/assets/e879d696-d5f6-498c-bd40-bb01bcc6162d" />
-
+<img width="1157" height="898" alt="v m" src="https://github.com/user-attachments/assets/e12c43f6-823a-4dd7-823d-b5f6ed3d53ed" />
+-
+<img width="1918" height="896" alt="v 6" src="https://github.com/user-attachments/assets/2a272aa7-3913-4dea-b689-befbc982d4b4" />
