@@ -1,7 +1,12 @@
-# TPJavaPipeLine-ZayemHafsa
+# Rapport TPJavaPipeLine-ZayemHafsa
 
-## Description
-Pipeline CI/CD : GitHub → Webhook → ngrok → Jenkins → Docker
+
+### Introduction
+Ce TP consiste à mettre en place un pipeline CI/CD complet
+avec Jenkins, GitHub Webhook et Docker.
+
+### Architecture
+GitHub (push) → Webhook → ngrok → Jenkins → Pipeline CI/CD
 
 ## Technologies
 - Java 21 / Maven
@@ -19,6 +24,8 @@ Pipeline CI/CD : GitHub → Webhook → ngrok → Jenkins → Docker
 <img width="1913" height="1005" alt="mvn clean intall" src="https://github.com/user-attachments/assets/afe23ba1-4ab4-451b-b000-b3d854303885" />
 
 ## 2️ Jenkins Dashboard
+<img width="1918" height="1060" alt="d jnks" src="https://github.com/user-attachments/assets/8138d96e-9546-4a66-9447-232cf0b36335" />
+-
 <img width="1930" height="931" alt="jenkins-dashboard" src="https://github.com/user-attachments/assets/bc8642a0-2fb1-4b93-b0c2-5850e8336d39" />
 
 ## 3️ Plugin GitHub Integration
@@ -48,3 +55,23 @@ Pipeline CI/CD : GitHub → Webhook → ngrok → Jenkins → Docker
 <img width="1157" height="898" alt="v m" src="https://github.com/user-attachments/assets/e12c43f6-823a-4dd7-823d-b5f6ed3d53ed" />
 -
 <img width="1918" height="896" alt="v 6" src="https://github.com/user-attachments/assets/2a272aa7-3913-4dea-b689-befbc982d4b4" />
+
+---
+
+
+### Étapes réalisées
+1. Création d'un projet Java Maven compilant sans erreur
+2. Création du Jenkinsfile avec 4 stages : Checkout, Build, Test, Package
+3. Configuration de ngrok pour exposer Jenkins local à GitHub
+4. Création du Webhook GitHub pour déclencher Jenkins automatiquement
+5. Création du Multibranch Pipeline Jenkins
+6. Vérification du déclenchement automatique après git push
+
+### Résultats
+Pipeline exécuté avec succès (Build #5 et #6). Tous les stages sont verts ✅.
+Chaque push sur GitHub déclenche automatiquement le build Jenkins.
+
+### Conclusion
+Le pipeline CI/CD fonctionne correctement. L'intégration
+GitHub + Jenkins + Docker permet une livraison continue automatisée.
+
